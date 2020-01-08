@@ -23,10 +23,7 @@ function edit(no) {
 	var text = "";
 	text += "Food : <input type='text' id='food' value=" + arr[no][0] + "><br>";
 	text += "Calorie : <input type='text' id='calorie' value=" + arr[no][1] + "><br>";
-	text += "<input type='button' value='register' onclick=register() />"
-	text += "<input type='button' value='edit' onclick=change() />"
-	text += "</table>";
-									
+							
 	document.getElementById('value').innerHTML = text;
 }
 			
