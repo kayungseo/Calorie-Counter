@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href="type.css">
-		
+		<link rel="stylesheet" href="type.css">
 		<h1>Calorie List</h1>
 	</head>
 	<body>		
@@ -12,13 +11,17 @@
 		
 		<br>
 		<br>
-		
-		<ul id="value">
-			Food : <input type="text" id="food" /><br>
-			Calorie : <input type="text" id="calorie" /><br>
-			<input type="button" value="register" onclick=register() />
-			<input type="button" value="edit" onclick=change() />
-		</ul>
+		<div id="input">
+			<ul id="value">
+				Food : <input type="text" id="food" /><br>
+				Calorie : <input type="text" id="calorie" /><br>
+			</ul>
+			
+		<input type="button" value="register" onclick=register() />
+		<input type="button" value="edit" onclick=change() />
+		</div>
+		<br>
 		<img src="diet1.jpg">
 	</body>
 </html>
+
