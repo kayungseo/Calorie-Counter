@@ -2,11 +2,13 @@
 <html>
 	<head>
 		<link href="type.css">
-		
+		<link rel="stylesheet" type="text/css" href="design.css"/>
 		<h1>Calorie List</h1>
+
 	</head>
 	<body>
 		<script src="arr.js"></script>
+		
 		
 		<ul class="a" id="test">
 		<script src="list.js"></script>
@@ -15,12 +17,17 @@
 		<br>
 		<br>
 		
-		<script src="register.js">
-		</script>
+		<script src="register.js"></script>
+		<div id="input">
+			Food : <input type="text" id="food" /><br>
+			Calorie : <input type="text" id="calorie" /><br>
+		</div>
+
+		<form class="submit">
+			<input class="submit" id="submit" type="button" value="submit" onclick=register() />
+		</form>
 		
-		Food : <input type="text" id="food" /><br>
-		Calorie : <input type="text" id="calorie" /><br>
-		<input type="button" value="submit" onclick=register() />
+		<img src="diet1.jpg">
 		
 		<script>
 			function drop() {
