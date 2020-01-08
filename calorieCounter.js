@@ -18,7 +18,6 @@ function drop(no) {
 
 var num;
 function edit(no) {
-	alert(no);
 	num = no;
 				
 	var text = "";
